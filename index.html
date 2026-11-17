@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chá de bebê da Emanuelly 🎀</title>
+<meta name="description" content="Domingo, 13/12/2026, às 14h · Colombo. Confirme sua presença!">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nannesantin.github.io/cha-emanuelly/">
+<meta property="og:title" content="Chá de bebê da Emanuelly 🎀">
+<meta property="og:description" content="Domingo, 13/12/2026, às 14h · Confirme sua presença!">
+<meta property="og:image" content="https://nannesantin.github.io/cha-emanuelly/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="theme-color" content="#C2185B">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧸</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --magenta:#C2185B; --magenta-dk:#9C1149; --rosa:#F7C6D3; --rosa-cl:#FDEEF2;
+    --pessego:#F2C4A8; --creme:#FFF9F7; --texto:#5A2A3A; --cinza:#9B8A90;
+    --ok:#3E9B6E; --ok-cl:#E3F4EB; --warn:#D9822B; --warn-cl:#FCEFE0; --no:#B9475A; --no-cl:#F9E1E5;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Montserrat,system-ui,sans-serif;color:var(--texto);background:#fff;min-height:100vh}
+  body::before,body::after{content:"";position:fixed;z-index:-1;border-radius:50%;filter:blur(40px);opacity:.7}
+  body::before{width:420px;height:420px;top:-140px;left:-140px;background:radial-gradient(circle,#F6B8CB,#FBDDE6 60%,transparent 70%)}
+  body::after{width:380px;height:380px;bottom:-140px;right:-120px;background:radial-gradient(circle,#F4BFD0,#FCE3EA 60%,transparent 70%)}
+  .script{font-family:"Dancing Script",cursive;color:var(--magenta)}
+
+
+  .view{display:none;max-width:560px;margin:0 auto;padding:20px 16px 60px}
+  .view.on{display:block}
+  .view.wide{max-width:980px}
+
+  /* cabeçalho do convite */
+  .hero{text-align:center;padding:10px 0 4px}
+  .verse{font-family:"Dancing Script";font-size:21px;line-height:1.3;color:var(--magenta);opacity:.85;margin:0}
+  .hero h1{font-family:"Dancing Script";font-size:56px;margin:4px 0 0;color:var(--magenta);transform:rotate(-4deg)}
+  .name-row{position:relative;text-align:center;margin-top:18px}
+  .balloons{position:absolute;width:84px;height:64px;left:max(0px,calc(50% - 200px));top:-34px}
+  @media (max-width:420px){.balloons{width:64px;height:50px;left:0;top:-30px}.ribbon{font-size:30px}}
+  .ribbon{display:inline-block;position:relative;background:linear-gradient(90deg,#F3B3C6,#F7CAD7,#EFA9BF);color:var(--magenta);font:700 34px "Dancing Script";padding:4px 38px;clip-path:polygon(0 0,100% 0,94% 50%,100% 100%,0 100%,6% 50%)}
+  .info{display:grid;grid-template-columns:1fr auto 1fr;gap:6px;align-items:center;margin:18px 0 6px;font-weight:700;color:var(--magenta)}
+  .info .mid{text-align:center;padding:0 10px}
+  .info .mid small{display:block;letter-spacing:4px;font-size:11px}
+  .info .mid b{font:700 40px Georgia,serif;display:block;line-height:1}
+  .info .side{text-align:center;border-top:2px dotted var(--magenta);border-bottom:2px dotted var(--magenta);padding:6px 0;font-size:16px}
+  .meta{display:flex;justify-content:space-between;gap:12px;font-size:12px;font-weight:600;color:var(--magenta);margin-top:8px}
+  .meta div{flex:1}
+  .meta div:last-child{text-align:right}
+
+  .card{background:rgba(255,255,255,.88);border:1px solid var(--rosa);border-radius:18px;padding:18px;margin-top:18px;box-shadow:0 6px 24px rgba(194,24,91,.07)}
+  .card h2{margin:0 0 6px;font:700 26px "Dancing Script";color:var(--magenta)}
+  .card p.sub{margin:0 0 14px;font-size:13px;color:var(--cinza)}
+  label{display:block;font-size:12px;font-weight:600;margin:10px 0 4px}
+  input,select{width:100%;padding:12px 14px;border:1.5px solid var(--rosa);border-radius:12px;font:500 15px Montserrat;color:var(--texto);background:#fff;outline:none}
+  input:focus,select:focus{border-color:var(--magenta)}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;width:100%;margin-top:14px;padding:13px;border:0;border-radius:12px;background:var(--magenta);color:#fff;font:700 15px Montserrat;cursor:pointer;text-decoration:none}
+  .btn:hover{background:var(--magenta-dk)}
+  .btn.ghost{background:#fff;color:var(--magenta);border:1.5px solid var(--magenta)}
+  .btn.sm{width:auto;margin:0;padding:7px 11px;font-size:12px;border-radius:9px}
+  .btn.wa{background:#25D366}.btn.wa:hover{background:#1DA851}
+  .hint{font-size:11px;color:var(--cinza);margin-top:6px}
+
+  .person{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px dashed var(--rosa)}
+  .person:last-child{border:0}
+  .person .nm{flex:1;font-weight:600}
+  .person input{padding:9px 11px;font-size:14px}
+  .toggle{display:flex;border:1.5px solid var(--rosa);border-radius:10px;overflow:hidden;flex-shrink:0}
+  .toggle button{border:0;background:#fff;padding:8px 10px;font:600 12px Montserrat;color:var(--cinza);cursor:pointer}
+  .toggle button.yes.on{background:var(--ok);color:#fff}
+  .toggle button.no.on{background:var(--no);color:#fff}
+
+  .success{text-align:center;padding:10px 0}
+  .success .big{font-size:46px}
+  .gift{background:var(--rosa-cl);border-radius:12px;padding:10px 12px;font-size:13px;margin-top:12px}
+
+  /* admin */
+  .topadm{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+  .topadm h1{font:700 34px "Dancing Script";color:var(--magenta);margin:0}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px}
+  .stat{background:#fff;border:1px solid var(--rosa);border-radius:14px;padding:12px;text-align:center}
+  .stat b{display:block;font-size:26px;color:var(--magenta)}
+  .stat span{font-size:11px;color:var(--cinza);font-weight:600}
+  .stat.alert{border-color:var(--warn);background:var(--warn-cl)}
+  .stat.alert b{color:var(--warn)}
+  .tabs{display:flex;gap:6px;margin-top:16px;border-bottom:2px solid var(--rosa);overflow-x:auto}
+  .tabs button{border:0;background:none;padding:10px 12px;font:600 13px Montserrat;color:var(--cinza);cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-2px;white-space:nowrap}
+  .tabs button.on{color:var(--magenta);border-color:var(--magenta)}
+  .badge{display:inline-block;min-width:18px;padding:1px 6px;border-radius:999px;background:var(--warn);color:#fff;font-size:11px;margin-left:4px}
+  .pane{display:none}.pane.on{display:block}
+  .row3{display:grid;grid-template-columns:2fr 1.5fr 1fr;gap:8px}
+  .row2{display:grid;grid-template-columns:1fr 1fr;gap:0 8px}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th{text-align:left;font-size:11px;color:var(--cinza);text-transform:uppercase;letter-spacing:.5px;padding:8px 6px;border-bottom:1px solid var(--rosa)}
+  td{padding:10px 6px;border-bottom:1px solid var(--rosa-cl);vertical-align:top}
+  td .names{font-size:11px;color:var(--cinza);margin-top:2px}
+  .chip{display:inline-block;padding:3px 9px;border-radius:999px;font-size:11px;font-weight:700}
+  .chip.ok{background:var(--ok-cl);color:var(--ok)}
+  .chip.pend{background:var(--warn-cl);color:var(--warn)}
+  .chip.no{background:var(--no-cl);color:var(--no)}
+  .actions{display:flex;gap:5px;flex-wrap:wrap}
+  .filter{display:flex;gap:6px;margin:12px 0}
+  .filter button{border:1px solid var(--rosa);background:#fff;border-radius:999px;padding:5px 11px;font:600 12px Montserrat;color:var(--texto);cursor:pointer}
+  .filter button.on{background:var(--rosa);border-color:var(--rosa);color:var(--magenta)}
+  .nm-card{border:1.5px solid var(--warn);background:var(--warn-cl);border-radius:14px;padding:14px;margin-top:10px}
+  .nm-card .t{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
+  .nm-card .acts{display:grid;grid-template-columns:1fr auto auto;gap:6px;margin-top:10px}
+  .gbar{margin-top:10px}.gl{display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px}.gl small{color:var(--cinza)}
+  .gt{height:14px;border-radius:999px;background:var(--rosa-cl);overflow:hidden}.gt div{height:100%;border-radius:999px;transition:width .4s}
+  .note{background:var(--rosa-cl);border-left:4px solid var(--magenta);border-radius:8px;padding:10px 12px;font-size:12px;margin-top:12px;line-height:1.5}
+  .toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%) translateY(100px);background:var(--texto);color:#fff;padding:11px 16px;border-radius:12px;font-size:13px;transition:.3s;z-index:20;max-width:90vw}
+  .toast.on{transform:translateX(-50%) translateY(0)}
+  @media (max-width:640px){
+    .stats{grid-template-columns:repeat(2,1fr)}
+    .row3{grid-template-columns:1fr}
+    .hide-m{display:none}
+    .nm-card .acts{grid-template-columns:1fr}
+  }
+
+  .btn:disabled{opacity:.6;cursor:wait}
+</style>
+<script src="config.js"></script>
+</head>
+<body>
+<main class="view on">
+  <div class="hero">
+    <p class="verse">“Eis que os filhos são herança do Senhor, e o fruto do ventre, o seu galardão.” — Salmo 127:3</p>
+    <h1>Chá de bebê</h1>
+    <div class="name-row">
+      <svg class="balloons" viewBox="0 0 120 90" aria-hidden="true">
+        <line x1="60" y1="88" x2="42" y2="40" stroke="#B9877A" stroke-width=".8"/>
+        <line x1="60" y1="88" x2="60" y2="28" stroke="#B9877A" stroke-width=".8"/>
+        <line x1="60" y1="88" x2="78" y2="42" stroke="#B9877A" stroke-width=".8"/>
+        <ellipse cx="42" cy="28" rx="14" ry="16" fill="#F8C9D4"/>
+        <ellipse cx="60" cy="18" rx="15" ry="17" fill="#F2C4A8"/>
+        <ellipse cx="78" cy="30" rx="14" ry="16" fill="#F3A9BD"/>
+        <path d="M100 20l2 5 5 .5-4 3.5 1.2 5-4.2-2.7-4.2 2.7 1.2-5-4-3.5 5-.5z" fill="#F6B7C6"/>
+        <path d="M16 46l1.5 3.6 3.8.4-2.9 2.6.9 3.7-3.3-2-3.3 2 .9-3.7-2.9-2.6 3.8-.4z" fill="#E8B48F"/>
+      </svg>
+      <div class="ribbon">Emanuelly</div>
+    </div>
+    <div class="info">
+      <div class="side">DOMINGO</div>
+      <div class="mid"><small>DEZEMBRO</small><b>13</b><small>2026</small></div>
+      <div class="side">14:00</div>
+    </div>
+    <div class="meta">
+      <div id="local-hero">📍 O endereço aparece quando você encontrar seu convite</div>
+      <div id="gift-hero">🎁 Fralda M ou G (conforme convite enviado) + um mimo (se puder)</div>
+    </div>
+  </div>
+
+  <div class="card" id="card"><p class="sub" style="text-align:center;margin:0">Carregando… 💕</p></div>
+
+  <p class="hint" style="text-align:center;margin-top:18px">
+    <a id="mapa-rodape" target="_blank" style="color:var(--magenta);display:none">📍 Ver no mapa</a>
+  </p>
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const API=(window.CHA_CONFIG||{}).API_URL||'';
+const $=id=>document.getElementById(id);
+const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
+const dig=t=>String(t||'').replace(/\D/g,'');
+function toast(m){const t=$('toast');t.textContent=m;t.classList.add('on');clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove('on'),3200)}
+let PRAZO='28/11', ORIGEM='link', END='';
+// o endereço não fica no código público: vem da planilha só para quem tem convite
+const mapaUrl=()=>'https://maps.google.com/?q='+encodeURIComponent(END);
+function mostrarLocal(e){
+  if(!e)return;END=e;
+  $('local-hero').textContent='📍 '+e;
+  const m=$('mapa-rodape');m.href=mapaUrl();m.style.display='';
+}
+
+async function get(params){
+  const r=await fetch(API+'?'+new URLSearchParams(params));
+  return r.json();
+}
+async function post(body){
+  const r=await fetch(API,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(body)});
+  return r.json();
+}
+function erroRede(){toast('Não conseguimos falar com o servidor. Verifique a internet e tente de novo.')}
+function travar(btn,on,txt){if(!btn)return;btn.disabled=on;if(on){btn._t=btn.textContent;btn.textContent=txt||'Enviando…'}else if(btn._t)btn.textContent=btn._t}
+
+/* ===== telas ===== */
+function telaTelefone(){
+  ORIGEM='tel';
+  $('gift-hero').textContent='🎁 Fralda M ou G (conforme convite enviado) + um mimo (se puder)';
+  $('card').innerHTML=`<h2>Confirme sua presença 💕</h2>
+    <p class="sub">Digite seu WhatsApp para encontrarmos seu convite. Confirme até <b>${PRAZO}</b>.</p>
+    <form id="f-tel">
+      <label for="tel-in">Seu telefone (com DDD)</label>
+      <input id="tel-in" inputmode="tel" autocomplete="tel" placeholder="(41) 99999-1234">
+      <button class="btn" type="submit">Buscar meu convite</button>
+    </form>
+    <p class="hint" style="color:var(--texto)">💡 Se o seu convite é para você <b>e mais pessoas</b>, use o número para o qual o convite foi enviado.</p>`;
+  $('f-tel').onsubmit=async ev=>{
+    ev.preventDefault();
+    const t=dig($('tel-in').value),btn=ev.target.querySelector('button');
+    if(t.length<10){toast('Digite o telefone com DDD');return}
+    travar(btn,true,'Buscando…');
+    try{
+      const r=await get({action:'buscar',tel:t});
+      if(r.ok){if(r.prazo)PRAZO=r.prazo;telaConfirmar(r.convite)}
+      else if(r.erro==='nao_encontrado')telaSemMatch(t);
+      else toast('Confira o número e tente de novo.');
+    }catch(e){erroRede()}finally{travar(btn,false)}
+  };
+}
+
+function telaConfirmar(c){
+  mostrarLocal(c.endereco);
+  $('gift-hero').textContent=`🎁 Fralda ${c.fr} + um mimo (se puder)`;
+  const temNomes=c.pessoas.length>0;
+  let linhas='';
+  for(let i=0;i<c.lim;i++){
+    const p=c.pessoas[i];
+    linhas+=`<div class="person">
+      ${p?`<div class="nm">${esc(p.n)}</div>`:`<input class="nm-in" maxlength="60" placeholder="Nome da pessoa ${i+1}">`}
+      <div class="toggle" data-i="${i}">
+        <button type="button" class="yes ${p&&p.s===true?'on':''}">Vou ✓</button>
+        <button type="button" class="no ${p&&p.s===false?'on':''}">Não vou</button>
+      </div></div>`;
+  }
+  $('card').innerHTML=`<h2>Olá, ${esc(c.nome)}! 💕</h2>
+    <div class="gift" style="margin:0 0 12px">🎁 Sua sugestão de presente: <b>Fralda ${c.fr}</b> e um mimo (se puder)</div>
+    <p class="sub">Confirme até <b>${PRAZO}</b>. ${temNomes&&c.pessoas.length>=c.lim?`Seu convite é para ${c.lim} pessoa${c.lim>1?'s':''}. Marque quem vai:`:`Seu convite é para até ${c.lim} pessoa${c.lim>1?'s':''}. ${c.lim>c.pessoas.length?'Escreva os nomes que faltam e marque':'Marque'} quem vai:`}</p>
+    ${linhas}
+    <button class="btn" id="b-ok">Confirmar resposta</button>`;
+  $('card').querySelectorAll('.toggle').forEach(t=>t.querySelectorAll('button').forEach(b=>b.onclick=()=>{
+    t.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');
+  }));
+  $('b-ok').onclick=async()=>{
+    const pessoas=[];let faltou=null;
+    $('card').querySelectorAll('.person').forEach((row,i)=>{
+      const nome=c.pessoas[i]?c.pessoas[i].n:row.querySelector('.nm-in').value.trim();
+      const y=row.querySelector('.yes.on'),n=row.querySelector('.no.on');
+      if(nome&&!y&&!n&&!faltou)faltou=nome;
+      pessoas.push({n:nome,s:y?true:n?false:null});
+    });
+    if(faltou){toast(`Marque “Vou” ou “Não vou” para ${faltou}`);return}
+    if(!pessoas.some(p=>p.n&&p.s!==null)){toast('Marque pelo menos uma pessoa');return}
+    const btn=$('b-ok');travar(btn,true);
+    try{
+      const r=await post({action:'confirmar',cod:c.cod,pessoas});
+      if(!r.ok){toast('Não foi possível salvar. Tente de novo.');return}
+      telaObrigado(r.convite);
+    }catch(e){erroRede()}finally{travar(btn,false)}
+  };
+}
+
+function telaObrigado(c){
+  const vao=c.pessoas.filter(p=>p.s);
+  $('card').innerHTML=`<div class="success"><div class="big">🧸🎀</div><h2>Obrigada!</h2>
+    <p class="sub">${vao.length?`Confirmamos ${vao.length} pessoa${vao.length>1?'s':''}: ${esc(vao.map(p=>p.n).join(', '))}.`:'Sentiremos sua falta! 💗'}</p>
+    ${vao.length?`<div class="gift">🎁 Sugestão de presente: <b>Fralda ${c.fr}</b> e um mimo (se puder)</div>
+    <a class="btn ghost" target="_blank" href="${agendaUrl()}">📅 Salvar na agenda</a>
+    ${END?`<a class="btn ghost" target="_blank" href="${mapaUrl()}">📍 Ver no mapa</a>`:''}`:''}
+    <p class="hint">Pode mudar a resposta até ${PRAZO} ${ORIGEM==='link'?'voltando neste mesmo link':'buscando pelo mesmo número'}.</p></div>`;
+}
+function agendaUrl(){
+  const p=new URLSearchParams({action:'TEMPLATE',text:'Chá de bebê da Emanuelly 🎀',dates:'20261213T170000Z/20261213T210000Z',
+    details:'Sugestão de presente: fralda + um mimo (se puder).',location:END});
+  return 'https://calendar.google.com/calendar/render?'+p;
+}
+
+function telaSemMatch(t){
+  $('card').innerHTML=`<h2>Não achamos esse número 🤔</h2>
+    <div class="note" style="margin:0 0 12px">📩 Recebeu o convite para você <b>e mais de uma pessoa</b>? Volte e use o <b>número para o qual o convite foi enviado</b>, ou fale com o papai e a mamãe da Emanuelly.</div>
+    <p class="sub">Se não for o seu caso, deixe seus dados que o papai e a mamãe da Emanuelly confirmam com você.</p>
+    <form id="f-nm">
+      <label for="nm-nome">Seu nome</label><input id="nm-nome" maxlength="80" placeholder="Nome completo" autocomplete="name">
+      <label for="nm-ac">Acompanhante (opcional)</label><input id="nm-ac" maxlength="80" placeholder="Nome de 1 acompanhante">
+      <p class="hint">Por aqui é possível informar <b>apenas 1 acompanhante</b>, conforme o convite oficial.</p>
+      <button class="btn" type="submit">Enviar</button>
+    </form>
+    <button class="btn ghost" id="b-voltar">← Tentar outro número</button>`;
+  $('b-voltar').onclick=telaTelefone;
+  $('f-nm').onsubmit=async ev=>{
+    ev.preventDefault();
+    const nome=$('nm-nome').value.trim(),acomp=$('nm-ac').value.trim(),btn=ev.target.querySelector('button');
+    if(!nome){toast('Escreva seu nome');return}
+    travar(btn,true);
+    try{
+      const r=await post({action:'semmatch',tel:t,nome,acomp});
+      if(r.ok)$('card').innerHTML=`<div class="success"><div class="big">💌</div><h2>Recebemos!</h2>
+        <p class="sub">O papai e a mamãe da Emanuelly vão conferir e te chamam no WhatsApp se precisar.</p></div>`;
+      else if(r.erro==='ja_cadastrado'){toast('Encontramos seu convite!');const b=await get({action:'buscar',tel:t});if(b.ok)telaConfirmar(b.convite)}
+      else toast('Não foi possível enviar. Tente de novo.');
+    }catch(e){erroRede()}finally{travar(btn,false)}
+  };
+}
+
+/* ===== início ===== */
+(async function(){
+  if(!API){$('card').innerHTML='<h2>Quase lá! 💕</h2><p class="sub">A confirmação de presença abre em breve.</p>';return}
+  const cod=new URLSearchParams(location.search).get('c');
+  try{
+    if(cod){
+      const r=await get({action:'convite',c:cod});
+      if(r.prazo)PRAZO=r.prazo;
+      if(r.ok){ORIGEM='link';telaConfirmar(r.convite);return}
+      toast('Não encontramos esse link. Busque pelo seu telefone 😉');
+    }else{
+      const r=await get({action:'evento'});if(r.prazo)PRAZO=r.prazo;
+    }
+  }catch(e){erroRede()}
+  telaTelefone();
+})();
+</script>
+
+</body>
+</html>
