@@ -303,7 +303,7 @@ function telaSemMatch(t){
   const cod=(new URLSearchParams(location.search).get('c')||'').replace(/[^A-Za-z0-9]/g,'');
   try{
     if(cod){
-      const r=await get({action:'convite',c:cod});
+      const r=await post({action:'convite',c:cod,cod}); // 'c' é reservado na URL do Apps Script, por isso vai por POST
       if(r.prazo)PRAZO=r.prazo;
       if(r.ok){ORIGEM='link';telaConfirmar(r.convite);return}
       toast('Não encontramos esse link. Busque pelo seu telefone 😉');
