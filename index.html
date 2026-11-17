@@ -300,7 +300,7 @@ function telaSemMatch(t){
 /* ===== início ===== */
 (async function(){
   if(!API){$('card').innerHTML='<h2>Quase lá! 💕</h2><p class="sub">A confirmação de presença abre em breve.</p>';return}
-  const cod=new URLSearchParams(location.search).get('c');
+  const cod=(new URLSearchParams(location.search).get('c')||'').replace(/[^A-Za-z0-9]/g,'');
   try{
     if(cod){
       const r=await get({action:'convite',c:cod});
